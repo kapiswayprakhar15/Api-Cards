@@ -1,0 +1,74 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 0 10px 5px rgb(18 18 18 / 25%);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    justify-content: space-between;
+  }
+
+  .card h3 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+  img 
+  {
+    padding: 0px 10px 0px 50px;
+    border-radius: 20px;
+  }
+
+  #addButton
+  {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+  }
+  #addButton:hover {
+    background-color: #45a049;
+  }
+
+
+  .popup {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4ddeee;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .popup input,
+  .popup textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    resize: vertical;
+  }
+
+  .popup button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .popup button:hover {
+    background-color: #45a049;
+  }
